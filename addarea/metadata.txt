@@ -7,13 +7,13 @@ name=AddArea
 qgisMinimumVersion=3.0
 description=This Plugin adds an area column to your polygon shapefiles in QGIS in Hectares
 version=0.1
-author=n/a
+author=Jackson Frauenfelder
 email=j.frauenfelder@me.com
 
 about=Calculates ellipsoidal area in hectares for all features in the active polygon layer and writes the result to a field named Area_ha. Handles invalid geometries automatically.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/jfrau1/QGIS-AddArea/issues
+repository=https://github.com/jfrau1/QGIS-AddArea
 # End of mandatory metadata
 
 # Recommended items:
@@ -23,9 +23,9 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python, area, hectares, polygon, vector
 
-homepage=http://homepage
+homepage=https://github.com/jfrau1/QGIS-AddArea
 category=Vector
 icon=icon.png
 # experimental flag
